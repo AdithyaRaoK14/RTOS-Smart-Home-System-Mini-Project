@@ -1,0 +1,17 @@
+Dependencies for Project 'Blinky', Target 'MCB2300': (DO NOT MODIFY !)
+F (.\Blinky.c)(0x690DA78F)(--thumb -c --cpu ARM7TDMI -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\blinky.o --depend .\obj\blinky.d)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x532C1630)
+I (C:\Keil\ARM\Inc\Philips\LPC23xx.H)(0x532C1500)
+I (LCD.h)(0x532C1530)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+F (.\LCD.c)(0x532C1530)(--thumb -c --cpu ARM7TDMI -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\lcd.o --depend .\obj\lcd.d)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x532C1630)
+I (C:\Keil\ARM\Inc\Philips\LPC23xx.H)(0x532C1500)
+I (LCD.h)(0x532C1530)
+F (.\RTX_Config.c)(0x532C1530)(--thumb -c --cpu ARM7TDMI -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\rtx_config.o --depend .\obj\rtx_config.d)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x532C1630)
+I (C:\Keil\ARM\Inc\Philips\LPC23xx.H)(0x532C1500)
+I (C:\Keil\ARM\RV31\INC\RTX_lib.c)(0x532C1630)
+F (.\LPC2300.s)(0x532C1530)(--cpu ARM7TDMI --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\lst\lpc2300.lst --xref -o .\obj\lpc2300.o --depend .\obj\lpc2300.d)
+F (Abstract.txt)(0x532C1530)()
